@@ -47,7 +47,9 @@ export default function Navbar() {
             </li>
           ))}
           <li className="nav-item ml-sm-5">
-            <FaCartArrowDown className="cart-icon" />
+            <FaCartArrowDown className="cart-icon snipcart-checkout">
+              <span class="snipcart-items-count"></span>
+            </FaCartArrowDown>
           </li>
         </ul>
       </div>

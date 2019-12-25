@@ -63,3 +63,9 @@ h6 {
   background: var(--mainYellow);
   color: var(--mainDark);
 }
+
+.menu,
+.contact {
+  background: var(--mainGrey);
+  overflow: hidden;
+}
